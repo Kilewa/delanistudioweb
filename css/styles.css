@@ -101,10 +101,39 @@ body{
     margin: 10px;
     justify-content: center;
 }
-img.portfolio{
-    margin: 10px;
-  }
+
   .col{
     text-align: center;
   }
 /* End of  What we do section*/
+
+/* portfolio section */
+
+.portfolio h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 20px;
+}
+.portfolio img{
+    margin: 10px;
+    border-radius: 5px;
+  }
+  .col-2{
+    display: inline-block;
+    position: relative;
+  }
+  .p1{
+    color: white;
+    display: none;
+    border: solid;
+    padding-bottom: 15px;
+    border-color: white;
+    margin: 10px;
+  }
+
+/* end of portfolio section */
+
+/* Contact Section */
+
+/* End of Contact section */
