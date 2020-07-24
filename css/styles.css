@@ -35,13 +35,22 @@
     margin: 20px;
     padding: 20px;
 }
-
 /* End of Header Section */
 
 
 /* About us section */
-
+.about_us h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+}
+.about_us p{
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+}
 /* End of About section */
+
 
 
 /* Services Section */
@@ -52,4 +61,23 @@
     background-position: center;
 }
 
+.services h1{
+    text-align: center;
+    color: #fff;
+}
+.services p{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
 /* End of Services section */
+
+
+/* What we do section */
+
+.what_we_do{
+    background-color: #fff;
+    color: #000;
+    align-items: center;
+}
+/* End of  What we do section*/
