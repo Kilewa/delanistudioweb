@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Header section */
 .landing_page{
     min-height: 95vh;
     background-image: url(../backgrounds/h_img.jpg);
@@ -18,3 +18,21 @@
     justify-content: center;
     padding-top: 150px;
 }
+
+/* End of Header Section */
+
+
+/* About us section */
+
+/* End of About section */
+
+
+/* Services Section */
+.services{
+    height: 40vh;
+    background-image: url(../backgrounds/s_image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* End of Services section */
