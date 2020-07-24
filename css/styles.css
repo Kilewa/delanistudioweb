@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing_page{
+    max-width: 100%;
+    min-height: 95vh;
+    background-image: url(../backgrounds/h_img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+}
