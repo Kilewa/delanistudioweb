@@ -17,6 +17,23 @@
     text-align: center;
     justify-content: center;
     padding-top: 150px;
+    padding-bottom: 30px;
+}
+.logo h1{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.logo p{
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.mouse{
+    margin: 20px;
+    padding: 20px;
 }
 
 /* End of Header Section */
