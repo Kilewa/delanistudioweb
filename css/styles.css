@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #d8d6d6;
+    font-family: 'Patrick Hand', cursive;
+}
+/* Header section */
+.landing_page{
+    min-height: 95vh;
+    background-image: url(../backgrounds/h_img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.logo{
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+.logo h1{
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.logo p{
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.mouse{
+    margin: 20px;
+    padding: 20px;
+}
+/* End of Header Section */
+
+
+/* About us section */
+.about_us h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #000;
+}
+.about_us p{
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+}
+/* End of About section */
+
+
+
+/* Services Section */
+.services{
+    height: 40vh;
+    background-image: url(../backgrounds/s_image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.services h1{
+    text-align: center;
+    color: #fff;
+}
+.services p{
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+/* End of Services section */
+
+
+/* What we do section */
+
+.what_we_do{
+    background-color: #d8d6d6;
+    color: #000;
+    align-items: center;
+    margin: 100px;
+}
+
+.what_we_do h1{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    margin: 10px;
+}
+.what_we_do p{
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+}
+
+  .col{
+    text-align: center;
+  }
+/* End of  What we do section*/
+
+/* portfolio section */
+
+.portfolio h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    margin: 20px;
+}
+.portfolio img{
+    margin: 10px;
+    border-radius: 5px;
+}
+.col-2{
+    display: inline-block;
+    position: relative;
+}
+.p1{
+    color: white;
+    display: none;
+    border: solid;
+    padding-bottom: 15px;
+    border-color: white;
+    margin: 10px;
+}
+
+/* end of portfolio section */
+
+/* Contact Section */
+.contact{
+    background-image: url("../backgrounds/c_image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+.contact h1{
+    margin-top: 20px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+input[type=text] {
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: inherit;
+}
+
+input[type=email] {
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: inherit;
+}
+
+::placeholder {
+    color: #fff !important;
+    font-size: 20px;
+}
+
+.message{
+    height: 150px;
+}
+.error {
+    color: red;
+    margin-left: 5px;
+  }
+  
+  label.error {
+    display: inline;
+  }
+
+input[type=submit]{
+    margin: 30px;
+    width:50%;
+    text-align: center;
+    background-color: #9f9fb9;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+
+}
+
+/* End of Contact section */
+
+/* footer */
+
+.social_links{
+    margin-top: 20px;
+    width: 75%;
+    margin: auto;
+}
+social_links img{
+    padding: 10px;
+}
+
+.copyright{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.text{
+    text-align: center;
+    border: solid;
+    border-color: white;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+}
+
+
+.text{
+    position: absolute;
+    margin: -150px 0px 0px 90px;
+    width:90px;
+    z-index:1;
+    text-align: center;
+}
+
+.port1:hover .text{
+    display: block;
+}
+/* End of fooeter */

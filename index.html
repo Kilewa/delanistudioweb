@@ -5,14 +5,150 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.5.1.js"></script>
-    <script src="js/scripts.js"></script>
     <title>Delani Studios</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Delani studios</h1>
-        <p>welcome where caption speaks</p>
+    <div class="container-fluid">
+        <!-- header section -->
+        <section class="landing_page">
+            <div class="logo">
+                <img src="./logo/logo.png" alt="">
+                <h1>Welcome</h1>
+                <h1>To delani studio</h1>
+               <p>Amazing people are making amazing designs in a fun environment.</p>
+                <img  class="mouse" src="./mouse_click.png" alt="">
+            </div>
+        </section>
+
+        <!-- About us section -->
+        <section class="about_us">
+            <h1>About us</h1>
+            <p>When you work with us, you are part of a team of committed collaborators. All aspects of our software development process are integrated, interactive and agile.</p>
+            <p>Our approach unites design, development and product management to create exceptional products.</p>
+            <p>We start each project by understanding your goals, the user's needs and the product requirements</p>
+            <p>Then we translate them into effective and elegant solutions.</p>
+        </section>
+
+        <!-- Services section -->
+        <section class="services">
+            <h1>Services</h1>
+            <p>Before we sign a contract or write a line of code our team will spend the necessary time to inderstand your product vision</p>
+            <p>The outcome of this scoping session is proposal or high-level statement of work</p>
+            <p>based on your requirements we can provide a complete offering or just the pieces you need.</p>
+        </section>
+
+        <!-- What We Do Section -->
+        <section class="what_we_do">
+            <h1>What we do</h1>
+            <div class="row justify-content-center align-items-center">
+                <div class="col">
+                    <img src="./services_icons/design_icon.png" id="design_toggle" alt="design-icon">
+                    <p><span class="design"><strong>DESIGN</strong></span></p>
+                    <p><span class="design_description">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</span></p>
+                    <p><span class="design_description">Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</span></p>
+                </div>
+                <div class="col">
+                    <img src="./services_icons/dev_icon.png" id="development_toggle" alt="development-icon">
+                    <p><span class="development"><strong>DEVELOPMENT</strong></span></p>
+                    <p><span class="development_description">All engineers are fluent in the latest enterprise, mobile and web development technologies.</span></p>
+                    <p><span class="development_description">They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</span></p>
+                </div>
+                <div class="col">
+                    <img src="./services_icons/product_icon.png" id="product_toggle" alt="product-management-icon">
+                    <p><span class="product"><strong>PRODUCT MANAGEMENT</strong></span></p>
+                    <p><span class="product_description">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. </span></p>
+                    <p><span class="product_description">This iterative process allows for changes as business requirements evolve.</span></p>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section -->
+        <section class="portfolio">
+            <h1>Portfolio</h1>
+            <div class="row port justify-content-center align-items-center" id="container1" >
+            <div class=" col-md-2 ">
+                <img src="./portfolio/work4.jpg" alt="portfolio-1" class="portfolio img-fluid portfolio_image1">
+            <div class="text text1">Project 1</div>
+            </div>
+            <div class=" col-md-2 ">
+                <img src="./portfolio/work3.jpg" alt="portfolio-2" class="portfolio img-fluid portfolio_image2" >
+                <div class="text text2">Project 2</div>
+            </div>
+            <div class=" col-md-2  ">
+                <img src="./portfolio/work2.jpg" alt="portfolio-3" class="portfolio img-fluid portfolio_image3">
+                <div class="text text3">Project 3</div>
+            </div>
+            <div class=" col-md-2  ">
+                <img src="./portfolio/work1.jpg" alt="portfolio-4" class="portfolio img-fluid portfolio_image4">
+                <div class="text text4">Project 4</div>
+            </div>
+            </div>
+            <div class="row port justify-content-center align-items-center" id="container2">
+            <div class=" col-md-2">
+                <img src="portfolio/work5.jpg" alt="portfolio-5" class="portfolio img-fluid portfolio_image5">
+                <div class="text text5">Project 5</div>
+            </div>
+            <div class=" col-md-2">
+                <img src="./portfolio/work6.jpg" alt="portfolio-6" class="portfolio img-fluid portfolio_image6">
+                <div class="text text6">Project 6</div>
+            </div>
+            <div class=" col-md-2">
+                <img src="./portfolio/work7.jpg" alt="portfolio-7" class="portfolio img-fluid portfolio_image7">
+                <div class="text text7">Project 7</div>
+            </div>
+            <div class=" col-md-2">
+                <img src="./portfolio/work8.jpg" alt="portfolio-8" class="portfolio img-fluid portfolio_image8">
+                <div class="text text8">Project 8</div>
+            </div>
+        </div>
+        </section>
+        <!-- Contact section -->
+        <section class="contact">
+            <h1>Contact us</h1>
+            <form id="contact_form">
+                <div id="form">
+                    <div class="row form-group justify-content-center align-items-center">
+                        <div class="col-md-4">
+                        <input type="text" name="name" value="" placeholder="Name..." class="form-control" id="full_name">
+                        </div>
+                        <div class="col-md-4">
+                        <input type="email"  name="email" placeholder="Email..." value="" class="form-control" id="email">
+                        </div>
+                    </div>
+                    <div class="row form-group justify-content-center align-items-center">
+                        <div class="col-md-8" id="message">
+                        <input type="text" value="" placeholder="Your message here..." class="form-control message" id="message">
+                        </div>
+                    </div>
+                    <div class="row form-group justify-content-center align-items-center">
+                        <div class="col-md-4">
+                        <input type="submit"  value="Submit" class="btn btn-primary submit">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <!-- Footer section -->
+        <div class="row justify-content-center align-items-center social_links">
+            <footer>
+                <img src="./social_icons/you_tube.png" alt="youtube icon">
+                <img src="./social_icons/twitter.png" alt="twitter icon">
+                <img src="./social_icons/stumble_upon.png" alt="stumble icon">
+                <img src="./social_icons/skype.png" alt="skype icon">
+                <img src="./social_icons/pinterest.png" alt="pinterest icon">
+                <img src="./social_icons/g_plus.png" alt="g_plus icon">
+                <img src="./social_icons/flickr.png" alt="flikr icon">
+                <img src="./social_icons/facebook.png" alt="facebook icon">
+                <img src="./social_icons/dribble.png" alt="dribble icon">
+                <img src="./social_icons/behance.png" alt="behance icon">
+            </footer>
+        </div>
+        <div class="copyright">
+            <p>DELANI STUDIO</p>
+            <p>2020</p>
+        </div>
     </div>
+    
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
 </html>
