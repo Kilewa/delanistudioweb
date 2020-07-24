@@ -172,6 +172,14 @@ input[type=email] {
 .message{
     height: 150px;
 }
+.error {
+    color: red;
+    margin-left: 5px;
+  }
+  
+  label.error {
+    display: inline;
+  }
 
 input[type=submit]{
     margin: 30px;
