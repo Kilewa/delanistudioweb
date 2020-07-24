@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #d8d6d6;
+    font-family: 'Patrick Hand', cursive;
 }
 /* Header section */
 .landing_page{
@@ -76,8 +84,27 @@
 /* What we do section */
 
 .what_we_do{
-    background-color: #fff;
+    background-color: #d8d6d6;
     color: #000;
     align-items: center;
+    margin: 100px;
 }
+
+.what_we_do h1{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    margin: 10px;
+}
+.what_we_do p{
+    text-align: center;
+    margin: 10px;
+    justify-content: center;
+}
+img.portfolio{
+    margin: 10px;
+  }
+  .col{
+    text-align: center;
+  }
 /* End of  What we do section*/
