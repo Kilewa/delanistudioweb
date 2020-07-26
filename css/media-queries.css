@@ -82,6 +82,29 @@
     ::placeholder {
         font-size: 16px;
     }
+
+    input[type=submit]{
+        margin: 20px;
+        width:30%;
+        padding: 10px;
+        font-size: 16px;    
+    }
+
+    .social_links{
+        margin-top: 30px;
+        width: 70%;
+    }
+    .social_links img{
+        padding: 4px;
+    }
+
+    .copyright{
+        font-size: 16px;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    
     
     
         
