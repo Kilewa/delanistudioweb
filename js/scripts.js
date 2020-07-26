@@ -152,21 +152,8 @@ $("#form1").submit(function(e){
 
     }
 });
-// $("#contact_form").submit(function(e){
-//     e.preventDefault();
-//     var name = document.getElementById("full_name").value;
-//     var email = document.getElementById("email").value;
-//     if (name == null || name == ""){
-//         alert("Name can't be blank!! please type your name");
-//         return false;
-//     }else if(email == null || email == ""){
-//         alert("Email can't be blank!! please type your email");
-//         return false;
 
-//     else  {
-//         alert("Hello " + name + " \n we have received your message. Thank you for reaching out to us.")
-//     }
-// });
+// Form Submision
 
 $(document).ready(function() {
 
@@ -183,8 +170,11 @@ $(document).ready(function() {
         } else {
             var regEx = /^[A-Z0-9][A-Z0-9._%+-]{0,63}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/;
             var validEmail = regEx.test(email);
-            if (!validEmail) {
+            if (validEmail) {
             $('#email').after('<span class="error">Enter a valid email</span>');
+            }
+            else{
+                alert("Hello " + name + " \n we have received your message. Thank you for reaching out to us.")
             }
         } 
         });
