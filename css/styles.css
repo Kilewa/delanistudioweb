@@ -117,7 +117,7 @@ body{
 }
 .portfolio img{
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 .col-2{
     display: inline-block;
@@ -127,9 +127,9 @@ body{
     color: white;
     display: none;
     border: solid;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     border-color: white;
-    margin: 10px;
+    margin: 8px;
 }
 
 /* end of portfolio section */
@@ -202,7 +202,7 @@ input[type=submit]{
     width: 75%;
     margin: auto;
 }
-social_links img{
+.social_links img{
     padding: 10px;
 }
 
