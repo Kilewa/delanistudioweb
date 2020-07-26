@@ -26,5 +26,31 @@
     .about_us p{
         font-size: 16px;
     }
+    .services{
+        height: 60vh;
+    }
+    .services h1{
+        font-size: 20px;
+    }
+    .services p{
+        font-size: 14px;
+    }
+
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+    .what_we_do h1{
+        padding: 10px;
+        margin: 5px;
+        font-size: 20px;
+    }
+
+    .what_we_do p{
+        margin: 10px;
+        font-size: 16px;
+        width: 100%;
+       
+    }
         
 }
