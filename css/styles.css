@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #d8d6d6;
+    background-color: #fff;
     font-family: 'Patrick Hand', cursive;
 }
 /* Header section */
@@ -84,7 +84,7 @@ body{
 /* What we do section */
 
 .what_we_do{
-    background-color: #d8d6d6;
+    background-color: #fff;
     color: #000;
     align-items: center;
     margin: 100px;
