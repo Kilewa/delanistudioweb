@@ -161,7 +161,7 @@ $(document).ready(function() {
             $('#email').after('<span class="error">Enter a valid email</span>');
             }
             else{
-                alert("Hello " + name + " \n we have received your message. Thank you for reaching out to us.")
+                alert("Hello " + name + "," + " \n We have received your message. Thank you for reaching out to us.")
             }
         } 
         });
