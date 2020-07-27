@@ -165,15 +165,4 @@ $(document).ready(function() {
             }
         } 
         });
-
-        const submitFunction = () => {
-            var name = document.getElementById('fullName').value;
-            var email = document.getElementById('email').value;
-            var message = document.getElementById('message').value;
-        }
-
-        document.addEventListener(submit, )
-
-        
-    
     });
