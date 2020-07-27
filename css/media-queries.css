@@ -3,6 +3,7 @@
 @media only screen and (max-width: 600px){
     .landing_page{
         min-height: 50vh;
+        background-image: url(../backgrounds/h_img.jpg);
         background-position: center;
         background-size: cover;
         margin-left: auto;
