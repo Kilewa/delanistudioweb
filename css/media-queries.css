@@ -3,6 +3,10 @@
 @media only screen and (max-width: 600px){
     .landing_page{
         min-height: 50vh;
+        background-position: center;
+        background-size: cover;
+        margin-left: auto;
+        margin-right: auto;
     }
     .logo{
         padding-top: 50px;

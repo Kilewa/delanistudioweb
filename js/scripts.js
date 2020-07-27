@@ -140,19 +140,6 @@ $(".design_description").click(function(){
     $("#design_toggle").show();
 });
 
-$("#form1").submit(function(e){
-
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("name").value;
-    if (name == " " || email == " "){
-    alert("Please enter a name and your email address to continue.");
-    return false;
-    }else{
-    alert("Hello " + name + " \n we have received your message. Thank you for reaching out")
-
-    }
-});
-
 // Form Submision
 
 $(document).ready(function() {
@@ -178,5 +165,15 @@ $(document).ready(function() {
             }
         } 
         });
+
+        const submitFunction = () => {
+            var name = document.getElementById('fullName').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+        }
+
+        document.addEventListener(submit, )
+
+        
     
     });
