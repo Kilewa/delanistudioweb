@@ -142,27 +142,11 @@ $(".design_description").click(function(){
 
 // Form Submision
 
-$(document).ready(function() {
+//form function
+function submitDetail(form){
+    var name = document.forms["name"]["name"].value;
+    var email = document.forms["email"]["email"].value;
+    var message = document.forms["message"]["message"].value;
+    alert("Hello! " + name + "," + " We have received your message. Thank you for reaching out to us. ");
+    }
 
-    $('#contact_form').submit(function(e) {
-        e.preventDefault();
-        var name = $('#full_name').val();
-        var yourEmail = $('#email').val();
-        $(".error").remove();
-        if (name.length < 3) {
-            $('#full_name').after('<span class="error">This field is required ! A name with 3 or more letters</span>');
-        }
-        if (yourEmail.length < 1) {
-            $('#email').after('<span class="error">This field is required</span>');
-        } else {
-            var regEx = /^[A-Z0-9][A-Z0-9._%+-]{0,63}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/;
-            var validEmail = regEx.test(email);
-            if (validEmail) {
-            $('#email').after('<span class="error">Enter a valid email</span>');
-            }
-            else{
-                alert("Hello " + name + "," + " \n We have received your message. Thank you for reaching out to us.")
-            }
-        } 
-        });
-    });
